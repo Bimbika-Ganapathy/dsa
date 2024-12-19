@@ -9,16 +9,16 @@ using namespace std;
 class Solution {
   public:
     bool arraySortedOrNot(vector<int>& arr) {
-        for(int i=1;i<arr.size();i++)
+        for(int i=1;i<arr.size();i++)          // from 1 coz when comparing i-1 will become -1 else
         {
-            if(arr[i]>arr[i-1]){
+            if(arr[i]<arr[i-1]){           // coz else might be lil sorted first then jumbled, so false first
         
             return false;
         }
        
 }
         return true;
-        
+    }
     };
 
 //{ Driver Code Starts.
