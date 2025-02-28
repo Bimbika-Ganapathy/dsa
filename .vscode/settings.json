@@ -55,5 +55,30 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "C_Cpp.errorSquiggles": "Enabled",
+  "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "C:/MinGW/include",
+    "C:/MinGW/lib/gcc/mingw32/9.2.0/include",
+    "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.29.30133/include"
+  ],
+  "C_Cpp.default.browse.path": [
+    "${workspaceFolder}/**",
+    "C:/MinGW/include",
+    "C:/MinGW/lib/gcc/mingw32/9.2.0/include",
+    "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.29.30133/include"
+  ],
+  "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
+  "C_Cpp.default.browse.databaseFilename": "${workspaceFolder}/.vscode/browse.VC.db",
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.intelliSenseMode": "gcc-x64",
+  "files.associations": {
+    "iostream": "cpp"
+  }
 }

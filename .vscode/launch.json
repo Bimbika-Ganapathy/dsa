@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/dsa",
-      "program": "f:/dsa/build/Debug/outDebug",
+      "cwd": "c:/Users/Dell/OneDrive/Documents/GitHub/dsa",
+      "program": "c:/Users/Dell/OneDrive/Documents/GitHub/dsa/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
